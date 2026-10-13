@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Hotel-Booking-API
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hotel_booking
+    username: hotel_user
+    password: hotel_pass
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+  flyway:
+    enabled: true
